@@ -1,0 +1,28 @@
+int modificacion()
+{
+FILE *part;
+struct articulo reg;
+char codigo[5];
+part=fopen("articulo.dat","rb+"); //Se abre el archivo en modo lectura/escritura
+if(part==NULL)// Se comprueba que la apertura fue correcta
+{ cout<<"Error de archivo";
+return 0; }// si la apertura no se pudo hacer la función devuelve un 0
+//Ingreso del código del registro a modificar
+cout<<"Ingrese el código: ";
+cin>>codigo;
+//Búsqueda del registro en el archivo
+while(fread(&reg, sizeof reg, 1, part)==1)
+{
+if(strcmp(codigo, reg.cod)==0)
+{
+cout<<"Ingrese el nuevo precio unitario: ";
+cin>>reg.pu;
+fseek(part, ftell(part)-sizeof reg, 0); //desplazamiento de part un registro hacia atrás
+fwrite(&reg, sizeof reg, 1, part); // escritura del registro modificado
+fclose(part); // cierre del archivo
+return 1; //como ya se hizo la modificación se termina la función
+}
+}
+fclose(part);// Cierre del archivo en caso que no se encuentre el código ingresado
+return 0; //se devuelve un 0 si no se encuentra el código en el archivo
+}

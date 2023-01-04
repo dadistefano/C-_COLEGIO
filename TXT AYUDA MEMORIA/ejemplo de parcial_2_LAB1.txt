@@ -1,0 +1,80 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+void mostrarMatriz(int m[3][3]);
+void mostrarVector(int*,int );
+void consignas();
+
+int main()
+{
+    int vec[10]= {1,2,3,4,5,6,7,8,9,10};
+
+    int mat[3][3]= {{1,2,3},
+                    {4,5,6},
+                    {7,8,9}};
+
+    char cad[20]= "Murcielago";
+
+    char op;
+    bool salir=false;
+    consignas();
+    cin.get();
+    while(!salir)
+    {
+        system("cls");
+        cout <<"--------------------------------"<<endl;
+        cout <<"*                              *"<<endl;
+        cout <<"* S-Salir                      *"<<endl;
+        cout <<"--------------------------------"<<endl;
+        cout <<"Ingrese una opcion: ";
+        cin>>op;
+        cin.ignore();
+        switch(op)
+        {
+        default:
+        {
+            cout <<"Opcion no valida!!!";
+        }
+        break;
+        }
+        cin.get();
+    }
+    return 0;
+}
+
+void consignas()
+{
+    cout <<"Para completar el parcial, agregar nuevas opciones en el menu,"<<endl;
+    cout <<"utilizar las variables cad, vec y mat ya declaradas en el programa."<<endl;
+    cout <<"Para mostrar el contenido de las variables ya existen las funciones mostrarMatriz y mostrarVector."<<endl;
+   cout <<endl;
+    cout <<"En una librearia aparte crear las funciones que resuelvan los siguientes problemas."<<endl;
+    cout <<"A - Informar cuantas vocales y cuantas consonantes tiene la variable cad."<<endl;
+    cout <<"B - Informar cuantos numeros primos hay en la variable vec y cual es el indice del primer numero par."<<endl;
+    cout <<"C - Modificar la variable mat para que los numeros pares se conviertan en impares y los impares en pares."<<endl;
+    cout <<"    Ninguno de los numeros de la matriz debe ser menor 1 ni mayor que 9."<<endl;
+
+}
+
+void mostrarMatriz(int m[3][3])
+{
+    for(int f=0; f<3; f++)
+    {
+        cout <<"*---*---*---*"<<endl<<"| ";
+        for(int c=0; c<3; c++)
+        {
+            cout <<m[f][c]<<" | ";
+        }
+        cout <<endl;
+    }
+    cout <<"*---*---*---*"<<endl;
+}
+
+void mostrarVector(int *v,int tam)
+{
+    for(int x=0; x<tam; x++)
+    {
+        cout <<v[x]<<endl;
+    }
+}

@@ -1,0 +1,24 @@
+int mayor(int *vec)
+{
+    int may1=0;
+    int may2=0;
+    int x=0;
+    while (x<10)
+    {
+        if (vec[x]>may1)
+        {
+            may1=vec[x];
+        }
+        x++;
+    }
+    x=0;
+    while (x<10)
+    {
+        if (vec[x]>may2 && vec[x]<may1)
+            {
+                may2=vec[x];
+            }
+            x++;
+    }
+    return may2;
+}

@@ -1,0 +1,156 @@
+#ifndef FUNCIONES_H_INCLUDED
+#define FUNCIONES_H_INCLUDED
+
+using namespace std;
+
+//Informar cuantas vocales y cuantas consonantes tiene la variable cad
+bool vocal(char a)
+{
+    bool rta =false;
+    switch(a)
+    {
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+            case 'A':
+    case 'E':
+    case 'I':
+    case 'O':
+    case 'U':
+        {
+            rta=true;
+        }break;
+    }
+    return rta;
+}
+int consonantes(char *c)
+{
+    int cc=0;
+
+    int i=0;
+    while(c[i]!='\0')
+    {
+        if((c[i]>='a' && c[i]<='z') || (c[i]>='A' && c[i]<='Z'))
+           {
+
+            if(!vocal(c[i]))
+            {
+                cc++;
+            }
+           }
+           i++;
+        }
+    return cc;
+    }
+
+int vocales(char *c)
+{
+    int cv=0;
+
+    int i=0;
+    while(c[i]!='\0')
+    {
+        if((c[i]>='a' && c[i]<='z') || (c[i]>='A' && c[i]<='Z'))
+           {
+
+            if(vocal(c[i]))
+            {
+                cv++;
+            }
+           }
+           i++;
+        }
+    return cv;
+    }//TERMINA ACA
+
+//Informar cuantos numeros primos hay en la variable vec y cual es el indice del primer numero par
+bool primos(int n)
+{
+    bool rta=false;
+    int c=0;
+    for(int i=n; i>0; i--)
+    {
+        if(n%i==0)
+        {
+            c++;
+        }
+    }
+    if(c==2)
+    {
+
+        rta=true;
+    }
+    return rta;
+}
+
+int EjB(int *v,int tam,int *pri)
+{
+    *pri=0;;
+    int indPar=-1;
+    bool b =true;
+    for(int x=0; x<tam; x++)
+    {
+        if(v[x]%2==0 &&b)
+        {
+            indPar=x;
+            b=false;
+        }
+        if(primos( v[x]))
+        {
+
+            *pri=*pri+1;
+        }
+    }
+    return indPar;
+//TERMINA ACA
+
+//modificar la variable mat para que los numeros pares se conviertan en impares y los impares en pares.
+//Ninguno de los numeros de la matriz debe ser menor 1 ni mayor que 9."<<endl;
+void modificarmat(int m[3][3]) //
+{
+    for(int f=0; f<3; f++)
+    {
+
+        for(int c=0; c<3; c++)
+        {
+            m[f][c]=m[f][c]+1;
+        }
+
+    }
+    for(int f=0; f<3; f++)
+    {
+
+        for(int c=0; c<3; c++)
+        {
+            if(m[f][c]>9)
+            {
+                if(m[f][c]%2==0)
+                {
+                    m[f][c]=8;
+                }
+                else
+                {
+                    m[f][c]=9;
+                }
+
+            }
+            if(m[f][c]<1)
+            {
+                if(m[f][c]%2==0)
+                {
+                    m[f][c]=2;
+                }
+                else
+                {
+                    m[f][c]=1;
+                }
+
+            }
+
+
+        }
+    }
+}//TERMINA ACA
+#endif // FUNCIONES_H_INCLUDED

@@ -1,0 +1,22 @@
+int alta()
+{
+FILE *part;
+struct articulo reg;
+part=fopen("articulo.dat","ab"); //Se abre el archivo en modo agregar
+if(part==NULL)// Se comprueba que la apertura fue correcta
+{ cout<<"Error de archivo";
+return 0; }// si la apertura no se pudo hacer la función devuelve un 0
+//Ingreso de los datos en la variable struct articulo
+cout<<"Ingrese el código: ";
+cin>>reg.cod;
+cout<<"Ingrese la descripción: ";
+cin>>reg.desc;
+cout<<"Ingrese el precio unitario: ";
+cin>>reg.pu;
+cout<<"Ingrese el stock: ";
+cin>>reg.stock;
+//Fin del ingreso de datos
+fwrite(&reg, sizeof reg,1,part); //Escritura del registro en el archivo
+fclose(part);// Cierre del archivo
+return 1;
+}

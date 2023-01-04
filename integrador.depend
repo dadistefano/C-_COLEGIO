@@ -1,0 +1,176 @@
+# depslib dependency file v1.0
+1568176625 source:c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"estructuras.h"
+	"submenu.h"
+	"funciones.h"
+
+1568176117 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador\estructuras.h
+
+1568176920 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador\submenu.h
+
+1568176137 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador\funciones.h
+
+1568330688 source:c:\users\charly\desktop\integrador\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"estructuras.h"
+	"submenu.h"
+	"funciones.h"
+	"validaciones.h"
+
+1568326764 c:\users\charly\desktop\integrador\estructuras.h
+
+1568177748 c:\users\charly\desktop\integrador\submenu.h
+
+1568332738 c:\users\charly\desktop\integrador\funciones.h
+
+1568330188 c:\users\charly\desktop\integrador\validaciones.h
+
+1568829780 source:c:\users\usuario\desktop\integrador\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"estructuras.h"
+	"validaciones.h"
+	"submenu.h"
+	"funciones.h"
+
+1568828785 c:\users\usuario\desktop\integrador\estructuras.h
+
+1568177748 c:\users\usuario\desktop\integrador\submenu.h
+
+1568831223 c:\users\usuario\desktop\integrador\funciones.h
+
+1568831457 c:\users\usuario\desktop\integrador\validaciones.h
+
+1568921376 source:c:\users\usuario\desktop\integrador v0.1\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<cstring>
+	"estructuras.h"
+	"validaciones.h"
+	"submenu.h"
+	"funciones.h"
+
+1568921418 c:\users\usuario\desktop\integrador v0.1\estructuras.h
+
+1568911730 c:\users\usuario\desktop\integrador v0.1\validaciones.h
+
+1568177748 c:\users\usuario\desktop\integrador v0.1\submenu.h
+
+1568921418 c:\users\usuario\desktop\integrador v0.1\funciones.h
+
+1568933523 source:c:\users\charly\desktop\integrador v0.2\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<stdio.h>
+	<cstring>
+	"estructuras.h"
+	"validaciones.h"
+	"submenu.h"
+	"funciones.h"
+
+1568921532 c:\users\charly\desktop\integrador v0.2\estructuras.h
+
+1568937220 c:\users\charly\desktop\integrador v0.2\validaciones.h
+
+1568177748 c:\users\charly\desktop\integrador v0.2\submenu.h
+
+1568939407 c:\users\charly\desktop\integrador v0.2\funciones.h
+
+1569384762 source:c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.4\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<stdio.h>
+	<cstring>
+	"estructuras.h"
+	"validaciones.h"
+	"submenu.h"
+	"funciones.h"
+
+1569383973 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.4\estructuras.h
+
+1568937220 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.4\validaciones.h
+
+1568177748 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.4\submenu.h
+
+1569387399 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.4\funciones.h
+
+1569384762 source:c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.5\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<stdio.h>
+	<cstring>
+	"estructuras.h"
+	"validaciones.h"
+	"submenu.h"
+	"funciones.h"
+
+1569389035 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.5\estructuras.h
+
+1568937220 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.5\validaciones.h
+
+1568177748 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.5\submenu.h
+
+1569388949 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.5\funciones.h
+
+1569440571 source:c:\users\usuario\desktop\integrador v0.5\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<stdio.h>
+	<cstring>
+	<windows.h>
+	"funciones_varias.h"
+	"estructuras.h"
+	"validaciones.h"
+	"submenu.h"
+	"funciones.h"
+
+1569436530 c:\users\usuario\desktop\integrador v0.5\estructuras.h
+
+1569432812 c:\users\usuario\desktop\integrador v0.5\validaciones.h
+
+1569439263 c:\users\usuario\desktop\integrador v0.5\submenu.h
+
+1569438369 c:\users\usuario\desktop\integrador v0.5\funciones.h
+
+1569436682 c:\users\usuario\desktop\integrador v0.5\funciones_varias.h
+
+1569466164 source:c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.6\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+	<stdio.h>
+	<cstring>
+	<windows.h>
+	"ayuda.h"
+	"funciones_varias.h"
+	"estructuras.h"
+	"validaciones.h"
+	"submenu.h"
+	"funciones.h"
+
+1569436684 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.6\funciones_varias.h
+
+1569436532 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.6\estructuras.h
+
+1569432814 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.6\validaciones.h
+
+1569466053 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.6\submenu.h
+
+1569438370 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.6\funciones.h
+
+1569466053 c:\users\dieguito\documents\tsp - 2do cuatrimestre\laboratorio 2\integrador v0.6\ayuda.h
+
